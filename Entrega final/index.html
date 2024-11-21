@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Entrega Final</title>
+    <link rel="stylesheet" href="./style/style.css">   
+</head>
+<body>
+
+    <h1>Simulador de Prestamos</h1>
+    <h2>Entrega Final</h2>
+
+    <h3 id="texto-secundario"> Prestamos faciles uy </h3>
+    <div id="prestamos-list"></div>
+    <div id="prestamo-info"></div>
+
+    <!--formilario de numero de cuenta ( es la cedula uruguaya)-->
+    <div id="formulario-cuenta" style="display: none;">
+        <label for="cuenta">Ingrese su cedula y sera acreditado en su cuenta personal (cedula o pasaporte 8 numeros max) </label>
+        <input type="number" maxlength="8" id="cuenta">
+        <button id="finalizar-solicitud">Solicitar</button>
+    </div>
+    
+    
+    <script src="./javascript/index.js"></script>
+</body>
+</html>

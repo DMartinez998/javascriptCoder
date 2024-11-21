@@ -1,0 +1,42 @@
+/* el estilo lo estoy implementando con la ayuda de esta app https://htmlcolorcodes.com/es/tabla-de-colores/ */
+
+
+body {
+    background-color:#faf5c9; 
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 10;
+    padding: 40px; 
+}
+h1 {
+    color: #104901;
+    font-family: 'Times New Roman', Times, serif;
+    
+}
+button {
+    margin: 15px ;
+    padding: 10px;
+    background-color: #249202; 
+    color: rgb(0, 0, 0); 
+    border: none;
+    border-radius: 5px; 
+    cursor: pointer; 
+}
+button:hover {
+    background-color: #53d838; 
+}
+
+#prestamos-list{
+
+
+background-color: rgb(0, 0, 0);
+padding: 0%;
+text-align: center;
+}
+
+#texto-secundario{
+
+
+    color:#104901;
+    
+    text-align: center;
+    }
